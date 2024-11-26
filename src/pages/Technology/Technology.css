@@ -1,0 +1,7 @@
+.technologyBackgroundImg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/public/Digital-disruption.webp');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}

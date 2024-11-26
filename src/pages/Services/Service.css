@@ -1,0 +1,168 @@
+h4 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  .card {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .first-card {
+    width: 400px;
+    height: 400px;
+    background-color: #010038;
+    box-shadow: 0 4px 8px #F59E0D;
+    position: relative;
+    text-align: center;
+    padding: 25px;
+    z-index: 10; /* Ensures it stays above the background cards */
+  }
+  
+  .first-card img {
+    width: 100%;
+  }
+  
+  .back-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    padding: 20px;
+    height: 400px;
+    transition: transform 0.4s ease-in;
+    background-color: #F59E0D;
+    z-index: 0; /* Ensures the back-card is below the first-card */
+  }
+  
+  .third-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    padding: 20px;
+    transition: transform 0.4s ease-in;
+    background-color: #F59E0D;
+    z-index: 0; /* Ensures the third-card is below the first-card */
+  }
+  
+  .card:hover .back-card {
+    transform: rotate(5deg);
+    z-index: 1; /* Moves it above the other background card during hover */
+  }
+  
+  .card:hover .third-card {
+    transform: rotate(-5deg);
+    z-index: 1; /* Moves it above the other background card during hover */
+  }
+  
+  /* button {
+    background-color: #000;
+    border: 4px solid #181515;
+    padding: 10px 5px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.4s;
+    font-size: 16px;
+  } */
+  
+  .first-card:hover  {
+    box-shadow: none;
+  }
+  
+  .btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F59E0D;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: .95;
+  }
+  
+  .btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+  }
+  
+  @keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+  }
+  @media(max-width: 576px){
+    .first-card{
+      width: 300px;
+      height: 300px;
+      background-color: #010038;
+      box-shadow: 0 4px 8px #F59E0D;
+      position: relative;
+      text-align: center;
+      padding: 25px;
+      z-index: 10;
+    }
+    .back-card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      /* padding: 20px; */
+      height: 300px;
+      transition: transform 0.4s ease-in;
+      background-color: #F59E0D;
+      z-index: 0; /* Ensures the back-card is below the first-card */
+    }
+    .third-card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      /* padding: 20px; */
+      transition: transform 0.4s ease-in;
+      background-color: #F59E0D;
+      z-index: 0; /* Ensures the third-card is below the first-card */
+    }
+    .card svg{
+      width: 50px;
+    }
+    .btn {
+      outline: 0;
+      background: #F59E0D;
+      min-width: 100px;
+      border: 0;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  }
