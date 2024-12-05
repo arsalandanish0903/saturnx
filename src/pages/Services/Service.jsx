@@ -72,7 +72,7 @@ function Service() {
                   Assets with normal experience of 7 years and tech ability across the spaces of local iOS, Android, cross stage, and hybrid apps.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>
@@ -90,7 +90,7 @@ function Service() {
                   Conveying outwardly engaging, intelligent, smooth, easy to understand, and high performing front finishes with our 9+ long years of industry experience.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>
@@ -154,7 +154,7 @@ function Service() {
                   Incredible significance to backend is fundamental for an effective programming and our ability in Java, NodeJS, .NET, PHP, Python, and so on assist you with accomplishing it.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>
@@ -191,7 +191,7 @@ function Service() {
                   Our aptitude in different data set innovations assists you with tracking down the ideal fit for your task dependent on the prerequisites and client base.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>
@@ -248,7 +248,7 @@ function Service() {
                   We assist you with changing your business with computerizing foundation, programming advancement and arrangement measures utilizing different DevOps instruments.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>
@@ -299,7 +299,7 @@ function Service() {
                 Our active involvement in well known CMS devices assists undertakings with making and deal with their advanced substance no sweat.
                 </p>
                 <div className='sm:my-4 my-1'>
-                  <button className="btn"><i className="animation"></i>Learn More<i className="animation"></i>
+                  <button className="Servicebtn"><i className="animation"></i>Learn More<i className="animation"></i>
                   </button>
                 </div>
               </div>

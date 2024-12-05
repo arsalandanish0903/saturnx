@@ -1,0 +1,29 @@
+.logo-container {
+  overflow: hidden;
+  background-color: #010038;
+}
+
+.logo-scroller {
+  display: flex;
+  width: 200%;
+  animation: scroll 40s linear infinite;
+  align-items: center;
+  gap: 2.5rem;
+}
+.logo-scroller:hover {
+  animation-play-state: paused;
+}
+
+.logo {
+  height: 5rem;
+  width: auto;
+  object-fit: cover;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

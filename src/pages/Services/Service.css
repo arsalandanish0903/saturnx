@@ -5,10 +5,6 @@ h4 {
     width: 100%;
     font-size: 24px;
   }
-  
-  
-  
-  
   .card {
     position: relative;
     margin-top: 50px;
@@ -76,7 +72,7 @@ h4 {
     box-shadow: none;
   }
   
-  .btn {
+  .Servicebtn {
     outline: 0;
     display: inline-flex;
     align-items: center;
@@ -97,11 +93,11 @@ h4 {
     cursor: pointer;
   }
   
-  .btn:hover {
+  .Servicebtn:hover {
     opacity: .95;
   }
   
-  .btn .animation {
+  .Servicebtn .animation {
     border-radius: 100%;
     animation: ripple 0.6s linear infinite;
   }
@@ -150,7 +146,7 @@ h4 {
     .card svg{
       width: 50px;
     }
-    .btn {
+    .Servicebtn {
       outline: 0;
       background: #F59E0D;
       min-width: 100px;

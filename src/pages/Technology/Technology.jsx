@@ -9,14 +9,17 @@ function Technology() {
                 <div className="flex justify-center items-center">
                     <TagCloudAnimation />
                 </div>
-                <div className="text-white space-y-6 bg-[#000] shadow-xl sm:p-8">
-                    <h1 className="text-3xl font-extrabold tracking-tight">The Most Trusted
-                        Web Service Provider
-                        in Nagpur</h1>
-                    <p className="text-lg">
-                    SaturnX Stays Ahead of the bend with digital marketing trends and Professional Digital Marketing Company in Nagpur providing creative and customized online solutions. We are an experienced and talented team of passionate consultants who live and breathe search engine. We have developed search strategies for leading brands to small and medium sized businesses across many industries in the India and worldwide.
-                    </p>
+                <div className="text-white space-y-6 relative  shadow-xl sm:p-8 overflow-hidden">
+                    <div className='bg-[#010038] text-white space-y-6 relative  addShadow sm:p-8'>
+                        <h1 className="text-3xl font-extrabold tracking-tight">The Most Trusted
+                            Web Service Provider
+                            in Nagpur</h1>
+                        <p className="text-lg">
+                            Saturnx Stays Ahead of the bend with digital marketing trends and Professional Digital Marketing Company in Nagpur providing creative and customized online solutions. We are an experienced and talented team of passionate consultants who live and breathe search engine. We have developed search strategies for leading brands to small and medium sized businesses across many industries in the India and worldwide.
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
     );

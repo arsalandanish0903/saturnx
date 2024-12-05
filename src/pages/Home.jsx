@@ -14,6 +14,10 @@ import { CiShop } from "react-icons/ci";
 import About from "./About/About";
 import Service from "./Services/Service";
 import Technology from "./Technology/Technology";
+import ClientSlider from "../components/ClientSlider/ClientSlider";
+import StatsSection from "../components/StatsSection/StatsSection";
+import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
+import BookSlider from "../components/BookSlider/BookSlider";
 
 const Home = () => {
   const { theme } = useContext(ThemeContext);
@@ -176,7 +180,10 @@ const Home = () => {
       <About />
       <Service />
       <Technology />
-      {/* <TagCloudAnimation /> */}
+      <StatsSection />
+      <ClientSlider />
+      <WhyChooseUs />
+      
     </>
   );
 };
